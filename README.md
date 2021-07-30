@@ -28,7 +28,8 @@ use Application load balancer end point in the browser to access the Application
 3.	Kindly setup a AWS cli on the Jenkins server in order to create the stack from Jenkins Pipeline build. This can also be done without configuring aws cli on Jenkins server with “awscloudformation” plugin.
 
 4. Kindly create a Pipeline build in Jenkins and browse the Jenkins file as SCM from the git repo. 
-4.	In order to run the build from Jenkins server with AWS cli we need to add roles to Jenkins Ec2 for the services creating from cloudformation template (ex. AWS s3,RDS)
+5. please use a parameterized build and craete the paramters mentioned in the jenkins file
+6.	In order to run the build from Jenkins server with AWS cli we need to add roles to Jenkins Ec2 for the services creating from cloudformation template (ex. AWS s3,RDS)
 
 
 
