@@ -3,6 +3,7 @@
 Automate Mediawiki App Deployment using Cloudformation Template with AWS Cli.
 I have used the AWS linux AMI and installed the Apacahe2 and PHP along with the Mediawiki configuration setup. 
 Launched the AWS RDS for Mysql dB as a backend database. 
+We also can use AWS marketplace subscription of mediawiki packaged ami for the application setup
 
 Deployment involves:
 1.	CFN Template 
