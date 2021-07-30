@@ -216,7 +216,7 @@
          "Type":"AWS::ElasticLoadBalancingV2::LoadBalancer",
          "Properties":{
             "Subnets":{
-               "Ref":"Subnets"
+               "Ref":"PublicSubnet"
             }
          }
       },
